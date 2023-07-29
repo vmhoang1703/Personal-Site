@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(145, 182, 216, 1); */
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, rgba(145, 182, 216, 1), rgb(222, 103, 87), #167ec0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.nav {
+    font-size: large;
+}
+
+.home-page {
+    /* background-color: rgba(145, 182, 216, 1); */
+    height: 100%;
+}
+
+.text-body-emphasis {
+    padding-top: 50px;
+    font-size: 70px;
+    font-family: 'Sacramento', cursive;
+}
+
+.lead {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: rgba(102, 191, 191, 1);
+}
